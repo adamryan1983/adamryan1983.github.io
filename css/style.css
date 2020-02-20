@@ -14,27 +14,89 @@
 } */
 html {
     font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 body{
-    background-color:#E0E5EC;
+    background-color:#dfdbdd;
+}
+#edu_mun, #edu_cna, #rbi_work, #arp_work {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(90,9,90);
+    font-size: small;
+    text-align: center;
+    border-radius:5px;
+    border: 3px solid rgb(90, 9, 90);
+    width:140px;
+    height:40px;
+    padding: 3px;
+    /* Basic styling and alignment */
+  /* For Neumorphism Effect */
+    background-color:#dfdbdd;
+    box-shadow: 9px 9px 20px #706e6f, -9px -9px 20px #ffffff;
 }
 
-.box h3 {
+#boxheader h1 {
     font-family: 'Work Sans', sans-serif;
+    color: rgb(90,9,90);
+    margin: auto;
+    line-height: 180px;
+    text-align: center;
+    
 }
-.boxheader, .boxresume, .boxwork, .boxeducation {
+#boxaboutme, #boxeducation2, #boxwork2 {
+    display: flex;
+}
+
+#boxaboutme, #boxeducation2 content, #boxwork2 content {
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+}
+#boxaboutme, #boxeducation2 aside, #boxwork aside{
+    width: 40%;
+    padding: 4px;
+    margin: auto;
+}
+    h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(90,9,90);
+    text-align: center;
+    padding: 5px;
+}
+
+#boxeducation2 content, #boxwork2 content{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+
+#boxheader, #boxresume, #boxwork, #boxeducation, #boxaboutme{
   /* Basic styling and alignment */
   margin-left: auto;
   margin-right: auto;
-  margin-top:100px;
-  border-radius:4px;
-  width:150px;
-  height:150px;
+  margin-bottom: 120px;
+  border-radius:50px;
+  border: 10px solid rgb(90, 9, 90);
+  width:450px;
+  height:200px;
   padding: 10px;
     /* Basic styling and alignment */
   /* For Neumorphism Effect */
-  background-color:#E0E5EC;
-  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  background-color:#dfdbdd;
+  box-shadow: 19px 19px 34px #706e6f, -19px -19px 34px #ffffff;
+  /* box-shadow: 16px 16px 20px rgba(126, 153, 194, 0.699), -16px -16px 20px  rgba(255, 255, 255, 0.11); */
     /* For Neumorphism Effect */
-    
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#cna_desc, #mun_desc, #rbi_desc, #arp_desc {
+    display: none;
+}
+
+#desc, #desc2{
+    display: block;
 }
