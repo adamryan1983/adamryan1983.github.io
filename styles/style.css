@@ -1,0 +1,132 @@
+:root{
+    --mainColor:#393e41;
+    --secondaryColor:#d3d0cb;
+    --thirdColor: #e2be3c;
+    --fourthColor: #3b8ea5;
+    --fifthColor: #e24e1b;
+    --headerColor: #5590bb;
+
+    --thirdColorLighter: #e2cf8c;
+    
+    --mainText:#2c4251;
+    --secondaryText:#4b5156;
+}
+
+* { box-sizing: border-box; }
+
+body * {
+    transition: 0.1s;
+}
+
+/* force scrollbar */
+html { 
+  overflow-y: scroll; 
+}
+
+body {
+    background: var(--mainColor);
+    color: var(--secondaryColor);
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+body a {
+    border-bottom: 4px solid var(--thirdColorLighter);
+}
+
+.header a {
+    color: var(--fourthColor);
+    border-bottom: 0px;
+}
+
+.socialBar a {
+    border: 0px;
+}
+.socialBar a:hover {
+    color: var(--thirdColor);
+    transition: 0.1s;
+}
+#blogSection a, #contactSection a{
+    color: var(--fourthColor);
+    border-bottom: 4px solid var(--thirdColorLighter);
+}
+.header a:hover, #blogSection a:hover, #contactSection a:hover  {
+    /* color: var(--thirdColor); */
+    /* text-decoration: underline;
+    text-decoration-thickness: 0.5rem; */
+    background: var(--thirdColor);
+    border-bottom: 0px;
+}
+.accentedColor {
+    color: var(--fifthColor);
+}
+
+#currentPage {
+    background: white;
+    opacity: 90%;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+li a:hover{
+    color: var(--fourthColor);
+}
+
+/* resume section formatting */
+#terminalSection {
+    font-family: 'VT323', monospace;
+}
+
+.blinking-cursor {
+    font-size: 20px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: white;
+    }
+  }
