@@ -1,12 +1,12 @@
 :root{
-    --mainColor:#393e41;
-    --secondaryColor:#d3d0cb;
-    --thirdColor: #e2be3c;
-    --fourthColor: #3b8ea5;
-    --fifthColor: #e24e1b;
-    --headerColor: #5590bb;
+    --mainColor:#faf3dd;
+    --secondaryColor:#ffa69e;
+    --thirdColor: #aed9e0;
+    --fourthColor: #5e6472;
+    --fifthColor: #b8f2e6;
+    --headerColor: #1d394d;
 
-    --thirdColorLighter: #e2cf8c;
+    --thirdColorLighter: #41c8dd;
     
     --mainText:#2c4251;
     --secondaryText:#4b5156;
@@ -58,7 +58,7 @@ body a {
     border-bottom: 0px;
 }
 .accentedColor {
-    color: var(--fifthColor);
+    color: var(--headerColor);
 }
 
 #currentPage {
