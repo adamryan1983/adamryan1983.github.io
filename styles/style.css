@@ -14,9 +14,9 @@
 
 * { box-sizing: border-box; }
 
-body * {
+/* body * {
     transition: 0.1s;
-}
+} */
 
 /* force scrollbar */
 html { 
@@ -44,7 +44,6 @@ body a {
 }
 .socialBar a:hover {
     color: var(--thirdColor);
-    transition: 0.1s;
 }
 #blogSection a, #contactSection a{
     color: var(--fourthColor);

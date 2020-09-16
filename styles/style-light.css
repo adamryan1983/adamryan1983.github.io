@@ -14,10 +14,6 @@
 
 * { box-sizing: border-box; }
 
-body * {
-    transition: 0.1s;
-}
-
 /* force scrollbar */
 html { 
   overflow-y: scroll; 
